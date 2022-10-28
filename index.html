@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+    
+</head> 
+<body>
+    <header>
+        <nav class="headerNav">
+        <h1>ArtStreet</h1>
+        <ul>
+            <a href="#" rel="noreferrer" id="ulTodos">All</a>
+            <a href="#" rel="noreferrer" id="ulAcessorios">Accessories</a>
+            <a href="#"rel="noreferrer" id="ulCalcados">Sneakers</a>
+            <a href="#"rel="noreferrer"id="ulCamisetas">T-Shirts</a>
+        </ul>
+            </nav>
+    </header>
+
+    <main class="container">
+        <section class="salesProduct">
+            <ul class="containerCard">
+                <!-- <li class="cardProduct">
+                    <figure>
+                        <img src="./img/jaqueta.svg" alt="">
+                    </figure>
+                    <div id="descripitionCart">
+                    <span>Camisetas</span>
+                    <h3>Lightweight Jacket</h3>
+                    <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
+                    <h4>R$100,00</h4>
+                    <button id="1" class="buyProduct">Adiconar ao Carrinho</button>
+                </div>
+                </li>
+                <li class="cardProduct">
+                    <figure>
+                        <img src="./img/gorro.svg" alt="">
+                    </figure>
+                    <div id="descripitionCart">
+                    <span>Acessorios</span>
+                    <h3>Black Hat</h3>
+                    <p>O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...</p>
+                    <h4>R$100,00</h4>
+                    <button id="2" class="buyProduct">Adiconar ao Carrinho</button>
+                </div>
+                </li>
+                <li class="cardProduct">
+                    <figure>
+                        <img src="./img/mascara.svg" alt="">
+                    </figure>
+                    <div id="descripitionCart">
+                    <span>Acessorios</span>
+                    <h3>Mask</h3>
+                    <p>Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
+                    <h4>R$40,00</h4>
+                    <button id="3" class="buyProduct">Adiconar ao Carrinho</button>
+                </div>
+                </li>
+                <li class="cardProduct">
+                    <figure>
+                        <img src="./img/camiseta_preta.svg" alt="">
+                    </figure>
+                    <div id="descripitionCart">
+                    <span>Camisetas</span>
+                    <h3>T-Shirt</h3>
+                    <p>Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...</p>
+                    <h4>R$100,00</h4>
+                    <button id="4" class="buyProduct">Adiconar ao Carrinho</button>
+                </div>
+                </li>
+                <li class="cardProduct">
+                    <figure>
+                        <img src="./img/camiseta_branca.svg" alt="">
+                    </figure>
+                    <div id="descripitionCart">
+                    <span>Camisetas</span>
+                    <h3>Short-Sleeve T-Shirt</h3>
+                    <p>Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...</p>
+                    <h4><R1></R1>100,00</h4>
+                    <button id="5" class="buyProduct">Adiconar ao Carrinho</button>
+                </div>
+                </li>
+                <li class="cardProduct">
+                    <figure>
+                        <img src="./img/moletom.svg" alt="">
+                    </figure>
+                    <div id="descripitionCart">
+                    <span>Camisetas</span>
+                    <h3>Champion Packable Jacket</h3>
+                    <p>Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...</p>
+                    <h4>R$100,00</h4>
+                    <button id="6" class="buyProduct">Adiconar ao Carrinho</button>
+                </div>
+                </li> -->
+            </ul>
+        </section>
+
+        <aside id="boxCart">
+            <div>
+                <input type="text" placeholder="Digite aqui sua pesquisa" id="sourchText" name="sourch">
+                <button class="sourch">Pesquisar</button>
+            </div>
+            <div class="cartText">
+                <h2>Carrinho de compras</h2>
+            </div>
+            <section class="cartBuy">
+                <ul id="marketCart">
+                    <!-- <li >
+                        <figure>
+                        <img src="./img/camiseta_branca.svg" alt="">
+                        </figure>
+                            <div id="descripitionCart">
+                             <h3>Black Hat</h3>
+                                <p>R$100,00</p>
+                                <button>Remover do Carrinho</button>
+                            </div>
+                            </li> --> 
+                          
+
+                </ul>
+                </section>
+                <div class="money">
+                    <div id="cartTotal">
+                        <li> 
+                            <span>Quantidade:</span>
+                            <span id="quantidade"></span>
+                   </li>
+                   <li>
+                        <span>Total</span>
+                        <span id="resultado"></span>
+                   </li>
+                    </div>
+              
+        </aside>
+    </main>
+</body>
+</html>
